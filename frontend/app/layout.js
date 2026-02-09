@@ -5,6 +5,7 @@ import { Toaster } from "sonner";
 import Header from "@/components/Header";
 import { neobrutalism } from "@clerk/themes";
 import Image from "next/image";
+import { icons } from "lucide-react";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -12,6 +13,12 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Servd - AI Recipes Platform",
   description: "",
+  icons:{
+    icon:'/icon.png',
+    shortcut:'/icon.png',
+    apple: '/logo.png'
+  }
+
 };
 
 export default function RootLayout({ children }) {
