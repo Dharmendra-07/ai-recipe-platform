@@ -136,8 +136,4 @@ See the [LICENSE](LICENSE) file for details.
 
 ⭐ If you like this project, don’t forget to **star the repo**!
 
-```
 
-You’re good to go 🚀  
-If you want a **shorter version** or a **portfolio-only README**, I can do that too.
-```
