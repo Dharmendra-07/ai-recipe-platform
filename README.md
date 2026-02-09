@@ -62,16 +62,16 @@ https://github.com/Dharmendra-07/ai-recipe-platform
 ## 🖼️ Screenshots
 
 ### Landing Page
-![Landing Page](./screenshots/landing.png)
+![Landing Page](./frontend/public/Landing-page-overview.png)
 
 ### Explore Recipes
-![Explore Recipes](./screenshots/explore-recipes.png)
+![Explore Recipes](./frontend/public/Cuisines-explore.png)
 
 ### AI Recipe Page
-![AI Recipe Page](./screenshots/ai-recipe.png)
+![AI Recipe Page](./frontend/public/Ai-generate.png)
 
 ### Pantry Scanner
-![Pantry Scanner](./screenshots/pantry-scanner.png)
+![Pantry Scanner](./frontend/public/Vegan-recipes.png)
 
 > 📌 Create a `screenshots/` folder in your repo and add your images there.
 
@@ -153,3 +153,8 @@ If you want, I can also:
 
 Just say the word 🚀
 ```
+# My Next.js App
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+[![License](https://img.shields.io/github/license/johndoe/my-next-app)](LICENSE)
