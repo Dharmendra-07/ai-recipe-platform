@@ -77,35 +77,6 @@ https://github.com/Dharmendra-07/ai-recipe-platform
 
 ---
 
-## 🧩 Project Walkthrough (Timestamps)
-
-- **00:01:36** – Project Intro & Showcase  
-- **00:08:05** – Setup Next.js + Shadcn UI  
-- **00:15:21** – App Layout  
-- **00:18:13** – User Authentication  
-- **00:38:26** – Backend Setup  
-- **00:40:20** – Headless CMS (Strapi)  
-- **00:47:03** – Database Design  
-- **00:59:31** – Arcjet Setup  
-- **01:01:32** – Store Users in DB  
-- **01:10:37** – Pricing & Subscription  
-- **01:22:52** – Landing Page  
-- **01:39:51** – Explore Recipes Page  
-- **01:42:55** – Server Actions  
-- **01:57:46** – Categories & Cuisine  
-- **02:01:53** – Custom Fetch Hook  
-- **02:13:53** – My Pantry Page  
-- **02:21:29** – Pantry Server Actions  
-- **02:24:14** – Rate Limiting  
-- **03:03:00** – AI Pantry Scanner  
-- **03:21:06** – Pantry-based Suggestions  
-- **03:40:49** – AI Recipe Page  
-- **04:30:43** – My Recipes Page  
-- **04:38:57** – Arcjet Shield & Bot Protection  
-- **04:42:32** – Deployment
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repo
