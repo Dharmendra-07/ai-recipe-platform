@@ -1,1 +1,184 @@
-# SERVD
+Awesome project 👌
+Here’s a **clean, professional, production-ready README.md** you can directly copy into your GitHub repo.
+It includes **project overview, features, tech stack, setup, timestamps, links, and an image section**.
+
+---
+
+````md
+# 🍽️ Servd – AI Recipes Platform
+
+**Servd** is a full-stack AI-powered recipe platform that helps users discover, generate, and manage recipes using modern web technologies, AI, and smart pantry-based suggestions.
+
+🔗 **Live Demo:**  
+https://ai-recipe-platform-gray.vercel.app/
+
+📦 **GitHub Repo:**  
+https://github.com/Dharmendra-07/ai-recipe-platform
+
+---
+
+## ✨ Features
+
+- 🔐 User authentication (Clerk)
+- 🤖 AI-generated recipes
+- 🥗 Pantry-based recipe suggestions
+- 📸 AI Pantry Scanner
+- 🧠 Headless CMS (Strapi)
+- 🧾 Save & manage recipes
+- 🔎 Advanced recipe search
+- ⚡ Rate limiting & bot protection (Arcjet)
+- 💳 Subscription & pricing system
+- 📄 PDF recipe downloads
+- 🎨 Modern UI with Shadcn UI + Tailwind
+- 🚀 Deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js (App Router)**
+- **React**
+- **Tailwind CSS**
+- **Shadcn UI**
+- **Lucide Icons**
+
+### Backend
+- **Next.js Server Actions**
+- **Strapi (Headless CMS)**
+- **PostgreSQL / SQL Database**
+
+### Auth & Security
+- **Clerk Authentication**
+- **Arcjet (Rate limiting, Shield, Bot protection)**
+
+### AI
+- **AI Recipe Generation**
+- **AI Pantry Scanner**
+- **AI-based Suggestions**
+
+---
+
+## 🖼️ Screenshots
+
+### Landing Page
+![Landing Page](./screenshots/landing.png)
+
+### Explore Recipes
+![Explore Recipes](./screenshots/explore-recipes.png)
+
+### AI Recipe Page
+![AI Recipe Page](./screenshots/ai-recipe.png)
+
+### Pantry Scanner
+![Pantry Scanner](./screenshots/pantry-scanner.png)
+
+> 📌 Create a `screenshots/` folder in your repo and add your images there.
+
+---
+
+## 🧩 Project Walkthrough (Timestamps)
+
+- **00:01:36** – Project Intro & Showcase  
+- **00:08:05** – Setup Next.js + Shadcn UI  
+- **00:15:21** – App Layout  
+- **00:18:13** – User Authentication  
+- **00:38:26** – Backend Setup  
+- **00:40:20** – Headless CMS (Strapi)  
+- **00:47:03** – Database Design  
+- **00:59:31** – Arcjet Setup  
+- **01:01:32** – Store Users in DB  
+- **01:10:37** – Pricing & Subscription  
+- **01:22:52** – Landing Page  
+- **01:39:51** – Explore Recipes Page  
+- **01:42:55** – Server Actions  
+- **01:57:46** – Categories & Cuisine  
+- **02:01:53** – Custom Fetch Hook  
+- **02:13:53** – My Pantry Page  
+- **02:21:29** – Pantry Server Actions  
+- **02:24:14** – Rate Limiting  
+- **03:03:00** – AI Pantry Scanner  
+- **03:21:06** – Pantry-based Suggestions  
+- **03:40:49** – AI Recipe Page  
+- **04:30:43** – My Recipes Page  
+- **04:38:57** – Arcjet Shield & Bot Protection  
+- **04:42:32** – Deployment
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/Dharmendra-07/ai-recipe-platform.git
+cd ai-recipe-platform
+````
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Setup environment variables
+
+Create a `.env.local` file and add:
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+DATABASE_URL=
+STRAPI_API_URL=
+ARCJET_KEY=
+```
+
+### 4️⃣ Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+* Frontend deployed on **Vercel**
+* Backend CMS hosted separately
+* Production-ready with security & rate limiting
+
+---
+
+## 👨‍💻 Author
+
+**Dharmendra Kumar**
+💗 Built with passion and curiosity
+
+* GitHub: [https://github.com/Dharmendra-07](https://github.com/Dharmendra-07)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+⭐ If you like this project, don’t forget to **star the repo**!
+
+```
+
+---
+
+## 🔥 Pro Tips
+- Use **real screenshots**, not placeholders
+- Add a `screenshots/` folder
+- Keep image names simple (`landing.png`, `recipe.png`)
+
+If you want, I can also:
+- Optimize this README for **recruiters**
+- Add **badges** (Next.js, Vercel, License)
+- Create a **portfolio version**
+- Write a **LinkedIn post** for launch
+
+Just say the word 🚀
+```
