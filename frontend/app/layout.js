@@ -5,7 +5,6 @@ import { Toaster } from "sonner";
 import Header from "@/components/Header";
 import { neobrutalism } from "@clerk/themes";
 import Image from "next/image";
-import { icons } from "lucide-react";
 
 
 const inter = Inter({ subsets: ["latin"] });
