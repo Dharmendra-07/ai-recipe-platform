@@ -1,24 +1,25 @@
-Awesome project 👌
-Here’s a **clean, professional, production-ready README.md** you can directly copy into your GitHub repo.
-It includes **project overview, features, tech stack, setup, timestamps, links, and an image section**.
-
----
-
-````md
 # 🍽️ Servd – AI Recipes Platform
 
-**Servd** is a full-stack AI-powered recipe platform that helps users discover, generate, and manage recipes using modern web technologies, AI, and smart pantry-based suggestions.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/Dharmendra-07/ai-recipe-platform?style=for-the-badge" />
+  </a>
+</p>
 
-🔗 **Live Demo:**  
-https://ai-recipe-platform-gray.vercel.app/
+<p align="center">
+  <strong>Servd</strong> is a full-stack AI-powered recipe platform that helps users discover, generate, and manage recipes using modern web technologies, AI, and smart pantry-based suggestions.
+</p>
 
-📦 **GitHub Repo:**  
-https://github.com/Dharmendra-07/ai-recipe-platform
+<p align="center">
+  <a href="https://ai-recipe-platform-gray.vercel.app/">🌐 Live Demo</a> •
+  <a href="https://github.com/Dharmendra-07/ai-recipe-platform">📦 GitHub Repo</a>
+</p>
 
 ---
 
 ## ✨ Features
-
 - 🔐 User authentication (Clerk)
 - 🤖 AI-generated recipes
 - 🥗 Pantry-based recipe suggestions
@@ -73,13 +74,13 @@ https://github.com/Dharmendra-07/ai-recipe-platform
 ### Pantry Scanner
 ![Pantry Scanner](./frontend/public/Vegan-recipes.png)
 
-> 📌 Create a `screenshots/` folder in your repo and add your images there.
+> 📌 Screenshots are stored in `frontend/public/`.
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repo
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Dharmendra-07/ai-recipe-platform.git
 cd ai-recipe-platform
@@ -92,8 +93,6 @@ npm install
 ```
 
 ### 3️⃣ Setup environment variables
-
-Create a `.env.local` file and add:
 
 ```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -113,24 +112,25 @@ npm run dev
 
 ## 🚀 Deployment
 
-* Frontend deployed on **Vercel**
-* Backend CMS hosted separately
-* Production-ready with security & rate limiting
+* ⚡ Frontend deployed on **Vercel**
+* 🧠 Headless CMS powered by **Strapi**
+* 🔐 Secured with **Clerk** and **Arcjet**
+* ✅ Production-ready with AI, payments & rate limiting
 
 ---
 
 ## 👨‍💻 Author
 
 **Dharmendra Kumar**
-💗 Built with passion and curiosity
-
-* GitHub: [https://github.com/Dharmendra-07](https://github.com/Dharmendra-07)
+GitHub: [https://github.com/Dharmendra-07](https://github.com/Dharmendra-07)
+Built with ❤️ using Next.js, AI & modern web tooling
 
 ---
 
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -138,23 +138,6 @@ This project is licensed under the **MIT License**.
 
 ```
 
----
-
-## 🔥 Pro Tips
-- Use **real screenshots**, not placeholders
-- Add a `screenshots/` folder
-- Keep image names simple (`landing.png`, `recipe.png`)
-
-If you want, I can also:
-- Optimize this README for **recruiters**
-- Add **badges** (Next.js, Vercel, License)
-- Create a **portfolio version**
-- Write a **LinkedIn post** for launch
-
-Just say the word 🚀
+You’re good to go 🚀  
+If you want a **shorter version** or a **portfolio-only README**, I can do that too.
 ```
-# My Next.js App
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-[![License](https://img.shields.io/github/license/johndoe/my-next-app)](LICENSE)
