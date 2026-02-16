@@ -44,11 +44,11 @@ export default async function LandingPage() {
                 Save money, reduce waste, and eat better tonight.
               </p>
 
-              <Link href="/dashboard">
+              <Link href="/dashboard" className="cursor-pointer">
                 <Button
                   size="xl"
                   variant="primary"
-                  className="px-8 py-6 text-lg cursor-pointer"
+                  className="px-8 py-6 text-lg"
                 >
                   Start Cooking Free <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
