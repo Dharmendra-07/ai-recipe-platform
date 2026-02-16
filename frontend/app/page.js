@@ -48,7 +48,7 @@ export default async function LandingPage() {
                 <Button
                   size="xl"
                   variant="primary"
-                  className="px-8 py-6 text-lg"
+                  className="px-8 py-6 text-lg cursor-pointer"
                 >
                   Start Cooking Free <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
