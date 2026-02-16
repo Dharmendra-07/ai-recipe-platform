@@ -44,7 +44,7 @@ export default async function LandingPage() {
                 Save money, reduce waste, and eat better tonight.
               </p>
 
-              <Link href="/dashboard" className="cursor-pointer">
+              <Link href="/dashboard">
                 <Button
                   size="xl"
                   variant="primary"
