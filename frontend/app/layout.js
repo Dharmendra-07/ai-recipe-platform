@@ -5,6 +5,7 @@ import { Toaster } from "sonner";
 import Header from "@/components/Header";
 import { neobrutalism } from "@clerk/themes";
 import Image from "next/image";
+import { Link } from "lucide-react";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -12,9 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Servd - AI Recipes Platform",
   description: "",
-  icons:{
-    icon:'/icon.png',
-    shortcut:'/icon.png',
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
     apple: '/orange-logo.png'
   }
 
@@ -29,7 +30,14 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
-          <link rel="icon" href="/logo.png" sizes="any" />
+          {/* <link rel="icon" href="/logo.png" sizes="any" /> */}
+          <Link href="/">
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className="w-28 cursor-pointer"
+            />
+          </Link>
         </head>
         <body className={`${inter.className}`}>
           <Header />
