@@ -29,16 +29,14 @@ export default function RootLayout({ children }) {
       }}
     >
       <html lang="en" suppressHydrationWarning>
-        <head>
-          {/* <link rel="icon" href="/logo.png" sizes="any" /> */}
-          <Link href="/">
-            <img
-              src="/logo.png"
-              alt="Logo"
-              className="w-28 cursor-pointer"
-            />
-          </Link>
-        </head>
+        {/* <link rel="icon" href="/logo.png" sizes="any" /> */}
+        <Link href="/">
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="w-28 cursor-pointer"
+          />
+        </Link>
         <body className={`${inter.className}`}>
           <Header />
           <main className="min-h-screen">{children}</main>
