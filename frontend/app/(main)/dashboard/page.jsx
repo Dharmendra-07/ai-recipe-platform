@@ -115,7 +115,7 @@ export default async function DashboardPage() {
                       </div>
                     )}
 
-                    <Button className="w-fit bg-orange-600 hover:bg-orange-700 text-white font-bold border-2 border-orange-700 px-6 py-5 cursor-pointer">
+                    <Button className="w-fit bg-orange-600 hover:bg-orange-700 text-white font-bold border-2 border-orange-700 px-6 py-5 !cursor-pointer">
                       Start Cooking <ArrowRight className="w-5 h-5 ml-2" />
                     </Button>
                   </div>
